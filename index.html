@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div id="divprinc">
+        <h1 id="titulo">Laboratorio 2</h1>
+        <div class="ejercicios">
+            <h1>Ejericicio # 1</h1>
+            <div class="conteje1">
+                <input type="number" id="ej1base" placeholder="Numero base" />
+                <input type="number" id="ej1exp" placeholder="Numero exponencial" />
+                <button onclick="calcularExp()">Calcular Exponencial</button>
+            </div>
+            <div>
+                <h3 id="respej1"></h3>
+            </div>
+        </div>
+        
+        <div class="ejercicios">
+            <h1>Ejericicio # 2</h1>
+            <div class="conteje2">
+                <input type="number" id="ej2gc" placeholder="° Centigrados" />            
+                <button onclick="calcularGf()">Calcular ° Farenheit</button>
+            </div>
+            <div>
+                <h3 id="respej2"></h3>
+            </div>
+        </div>
+
+        <div class="ejercicios">
+            <h1>Ejericicio # 3</h1>
+            <div class="conteje3">
+                <input type="text" id="ej3add" placeholder="Nombre para agregar" />            
+                <button onclick="addname()">Agregar a lista</button>
+                <input type="number" id="ej3num" placeholder=" # caracteres" />            
+                <button onclick="filtro()">filtrar</button>
+
+                <ul id="listadoname">
+
+                </ul  >
+
+            </div>
+            <div>
+                <ul id="filtradoname">
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="ejercicios">
+            <h1>Ejericicio # 4</h1>
+            <input type="date" id="fechanac">
+            <button onclick="calcedad()">Calcular edad</button>
+            <div>
+                <h3 id="edad"></h3>
+            </div>
+        </div>
+        <div class="ejercicios">
+            <h1>Ejericicio # 5</h1>
+            <input type="text" id="hilera" placeholder="Escribe una oracion">
+            <button onclick="calcnopal()">Calcular numero de palabras</button>
+            <div>
+                <h3 id="palabrasn"></h3>
+            </div>
+        </div>
+        
+        <div class="ejercicios">
+            <h1>Ejericicio # 6</h1>
+            <input type="number" id="ej6num" placeholder="ingresa un numero">
+            <button onclick="addnums()">Agregar numero</button>
+            <button onclick="calcprom()">promedio</button>
+            <ul id="listadonum">
+
+            </ul>
+            <div>
+                <h3 id="promedion"></h3>
+            </div>
+        </div>
+        <div class="ejercicios">
+            <h1>Ejericicio # 7</h1>
+            <input type="text" id="colorej7" placeholder="Ingrese un color en ingles">
+            <button onclick="agregarcolor()">Agregar Color</button>
+            <div id="cuadrocolor">
+
+            </div>
+        </div>
+        
+
+    </div>
+</body>
+
+</html>
